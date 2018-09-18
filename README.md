@@ -5,7 +5,7 @@ DC_1_.py
 
     (17.09.2018)
 
-    The problem:
+    This problem was asked by Amazon:
     
       There's a staircase with N steps, and you can climb 1 or 2 steps at a time. Given N, write a function that returns the number of unique ways you can climb the staircase. The order of the steps matters.
 
