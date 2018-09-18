@@ -1,2 +1,2 @@
-# MyDailyCode
-My solutions for Daily Code problems (https://www.dailycodingproblem.com/)
+# MyDailyCoding
+My solutions for Daily Coding problems (https://www.dailycodingproblem.com/)
