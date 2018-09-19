@@ -50,7 +50,7 @@ ris = two_num_sum_k(X, k)
 
 print("\nk =", k)
 print("X =", X, "\n")
-print("number_of_ways_to_climb_the_staircase = <", ris, "> \n")
+print("two_num_sum_k = <", ris, "> \n")
 
 print("'''=====================<Test 1 - end>======================'''\n")
 
@@ -64,7 +64,7 @@ ris = two_num_sum_k(X, k)
 
 print("\nk =", k)
 print("X =", X, "\n")
-print("number_of_ways_to_climb_the_staircase = <", ris, "> \n")
+print("two_num_sum_k = <", ris, "> \n")
 
 print("'''=====================<Test 2 - end>======================'''\n")
 
@@ -78,7 +78,7 @@ ris = two_num_sum_k(X, k)
 
 print("\nk =", k)
 print("X =", X, "\n")
-print("number_of_ways_to_climb_the_staircase = <", ris, "> \n")
+print("two_num_sum_k = <", ris, "> \n")
 
 print("'''=====================<Test 3 - end>======================'''\n")
 
@@ -92,6 +92,6 @@ ris = two_num_sum_k(X, k)
 
 print("\nk =", k)
 print("X =", X, "\n")
-print("number_of_ways_to_climb_the_staircase = <", ris, "> \n")
+print("two_num_sum_k = <", ris, "> \n")
 
 print("'''=====================<Test 4 - end>======================'''\n")
