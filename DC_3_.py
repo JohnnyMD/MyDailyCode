@@ -16,6 +16,7 @@ def smart_array(X):
     if (X.__len__() <= 0):
         return []
     
+    # No numbers arround the single number in X
     if (X.__len__() == 1):
         return [0]
     
