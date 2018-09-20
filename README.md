@@ -1,7 +1,7 @@
 # MyDailyCoding
 My solutions for Daily Coding problems (https://www.dailycodingproblem.com/)
 
-DC_1_.py
+DC__0__.py
 
     (17.09.2018)
 
@@ -19,7 +19,7 @@ DC_1_.py
       For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time. Generalize your function to take in X.
         
 
-DC_2_.py
+DC__1__.py
     
     (18.09.2018)
     
@@ -29,7 +29,8 @@ DC_2_.py
       For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
       Bonus: Can you do this in one pass? (Done !)
 
-DC_3_.py
+
+DC__2__.py
     
     (19.09.2018)
     
@@ -38,3 +39,25 @@ DC_3_.py
       Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
       For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
       Follow-up: what if you can't use division? (Done !)
+
+
+DC__3__.py
+    
+    (20.09.2018)
+
+    This problem was asked by <Google>.
+
+      Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+      For example, given the following Node class:
+
+      class Node:
+          def __init__(self, val, left=None, right=None):
+              self.val = val
+              self.left = left
+              self.right = right
+
+      The following test should pass:
+
+      node = Node('root', Node('left', Node('left.left')), Node('right'))
+      assert deserialize(serialize(node)).left.left.val == 'left.left'
