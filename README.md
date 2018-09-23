@@ -41,7 +41,7 @@ DC__2__.py
       Follow-up: what if you can't use division? (Done !)
 
 
-DC__3__.py
+DC__3__.py   (NOT solved yet !!!)
     
     (20.09.2018)
 
@@ -76,3 +76,21 @@ DC__4__.py
       For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
 
       You can modify the input array in-place.
+
+
+DC__5__.py
+    
+    (22.09.2018)
+
+    This problem was asked by <Jane Street>.
+
+      cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4.
+
+      Given this implementation of 'cons':
+
+          def cons(a, b):
+              def pair(f):
+                  return f(a, b)
+              return pair
+
+      Implement 'car' and 'cdr'.
