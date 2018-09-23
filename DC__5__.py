@@ -15,22 +15,53 @@ Given this implementation of 'cons':
 Implement 'car' and 'cdr'.
 """
 
-def f(a, b):
-    return (a, b)
 
 def cons(a, b):
+
     def pair(f):
         return f(a, b)
-    return pair(f)
+
+    return pair
+
+
+# TODOS: it's all about functional programming !
+
+def car(f):
+
+    def first(a, b):
+        return a
+
+    return f(first)
 
 
 
-def car(cons):
-    return cons[0]
+def cdr(f):
+
+    def last(a, b):
+        return b
+
+    return f(last)
 
 
-def cdr(cons):
-    return cons[1]
+""" My first aproach (Wrong !!!)
+    
+    def f(a, b):
+        return (a, b)
+
+    def cons(a, b):
+        def pair(f):
+            return f(a, b)
+        return pair(f)
+
+
+
+    def car(cons):
+        return cons[0]
+
+
+    def cdr(cons):
+        return cons[1]
+"""
 
 
 """
