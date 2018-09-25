@@ -48,9 +48,9 @@ DC__2__.py
         Follow-up: what if you can't use division? (Done !)
 
 
-DC__3__.py   (NOT solved yet !!!)
+DC__3__.py
     
-    (20.09.2018)
+    (20.09.2018)   [Not solved yet...]
 
     This problem was asked by <Google>.
 
@@ -107,7 +107,7 @@ DC__5__.py
 
 DC__6__.py
     
-    (23.09.2018)
+    (23.09.2018)   [Not solved yet...]
     
     This problem was asked by <Google>.
 
@@ -138,7 +138,7 @@ DC__7__.py
         
 DC__8__.py
 
-    (25.09.2018)
+    (25.09.2018)   [Not solved yet...]
     
     This problem was asked by Google.
 
