@@ -37,7 +37,7 @@ def zigzag_print(s: str, k: int) -> None:
     row = 0
     for i in range(len_s):
         # Revert the row filling direction when getting to the first of last row:
-        if (i % (k-1)) == 0:
+        if row == 0 or row == k - 1:
             direction *= -1
             if direction == 1:
                 row = 0
@@ -96,5 +96,8 @@ if __name__ == '__main__':
     
     print("\n'''=====================<   Test 07   >===================='''")
     zigzag_print('thisisazigzag', 10)
+    
+    print("\n'''=====================<   Test 08   >===================='''")
+    zigzag_print('thisisazigzagzig', 5)
     
     print("\n'''=====================<  END TESTS  >===================='''")
